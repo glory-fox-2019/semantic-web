@@ -11,53 +11,52 @@
 <body>
     <div class="menu" >
         <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="#portoGo">Portofolio</a></li>
-            <li><a href="#bloGo">Blog</a></li>
-            <li><a href="#portoGo">Partnership</a></li>
-            <li><a href="#ext">External Link</a></li>
+            <li><a href="#" id="titleHome">Home</a></li>
+            <li><a href="#" id="titlePorto">Portofolio</a></li>
+            <li><a href="#" id="titleBlog">Blog</a></li>
+            <li><a href="#" id="titlePart">Partnership</a></li>
+            <li><a href="#" id="titleExt">External Link</a></li>
         </ul>
     </div> 
 
     <div class="title">
         <p> </p>
-        <h1>mromiario</h1>
-        <h2>"a personal website contains a brief story of mromiario"</h2>
+        <h1>M Romi Ario</h1>
+        <h2 id="mHome">"a personal website contains a brief story of @mromiario"</h2>
+        <h2 id="mPorto">Let's explore what have we made!</h2>
+        <h2 id="mVisit">visit <a href="http://journey-missing.blogspot.com" target="_blank">our blog</a> for more articles</h2>
+        <h2 id="mPart">open for partnership</h2>
+        <h2 id="mSocmed">Reach us in social media</h2>
     </div>
 
-    <div class= "li-content">
+    <div class= "li-content" id="menuHome">
        
         <div class="portofolio content">
-            <a href="#portoGo"><h1>Portofolio</h1></a>  
+            <a href="#" id="menuPorto"><h1>Portofolio</h1></a>  
         </div>
             
         <div class="blog content">
-            <a href="#bloGo"> <h1>Blog</h1></a>        
+            <a href="#" id="menuBlog"> <h1>Blog</h1></a>        
         </div>
             
         <div class="part content">
-            <a href="#portoGo"><h1>Partnership</h1></a>    
+            <a href="#" id="menuPart"><h1>Partnership</h1></a>    
         </div>
             
         <div class="ext content">
-            <a href="#ext"><h1>External Link</h1> </a>
+            <a href="#" id="menuExt"><h1>External Link</h1> </a>
         </div>
             
     </div>
 
     <div class="li-content" id="portoGo" >
-
-        <a href="./index.html">
-            <div class="csoon content porto" >
-                <p>Coming Soon. Our portofolio(s) are in progress.</p>
-            </div> 
-        </a>
-      
+        <div class="csoon content porto" >
+            <p>Coming Soon. Our portofolio(s) are in progress.</p>
+        </div> 
     </div>
     
 
-    <div class="li-content" id= "bloGo">
-              
+    <div class="li-content" id= "bloGo"> 
         <div class="satu content c-blog">
             <a href="http://journey-missing.blogspot.com/2018/08/wisata-cagar-budaya-gereja-katedral.html" target="_blank">
                 <h1>01</h1>
@@ -153,11 +152,33 @@
                     <h1>Blogspot</h1>
             </a>
         </div>
+    </div>
+
+    <div class= "li-content" id="partGo">
+        <div class="it content cpart">
+            <h1>IT Development & AI</h1>   
+        </div>
+
+        <div class="poto content cpart">
+            <h1>Photography</h1>
+        </div>
     
+        <div class="contact content cpart">
+            <a href="#" id="contaxt"><h2>Contact us, for further information.</h2></a>      
+        </div> 
+
     </div>
 
     <footer>
         Copyright 2019 - M Romi Ario
-    </footer>        
+    </footer>  
+    
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+
 </body>
 </html>
