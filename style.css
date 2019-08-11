@@ -1,0 +1,5 @@
+.indent { text-indent: 30px; }
+
+.zoom:hover {
+    transform: scale(1.1);
+}

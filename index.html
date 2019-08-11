@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Material Icon -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Local CSS -->
+        <link rel="stylesheet" href="./style.css">
+
+        <title>Compass: To Infinity & Beyond</title>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="border border-white rounded-lg my-1">  
+                <i class="material-icons text-white ml-3 mr-1 align-middle">navigation</i>
+                <a href="#" class="navbar-brand mr-3 font-weight-bold align-middle">
+                    Compass
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse ml-2">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#phone_section">Products <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#acc_section">Accesories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#desc_section">Detail</a>
+                    </li>
+                </ul>
+                
+                <form action="#" class="form-inline">
+                    <input type="search" class="form-control mr-sm-2">
+                        <input type="submit" class="form-control btn-outline-white bg-dark text-white" value="Search">
+                </form>
+            </div>
+        </nav>
+
+            <div class="container-fluid bg-white" id="phone_section">
+                <h1 class="text-center pt-4 font-weight-bold">Compass XR</h1>
+                <p class="text-center">
+                    Desain layar sepenuhnya. Baterai tahan lama hingga 2 hari.<br>
+                    Performa mumpuni. Foto potret kualitas studio</p>
+                <div class="text-center mt-0 pd-4">
+                    <a href="#" id="phone" class="mr-4" onclick="phoneDetail()">Selengkapnya <strong>></strong></a>
+                </div>
+
+                <div id="phone-detail" style="display:none;">
+                    <p class="text-secondary text-center">Desain layar sepenuhnya. Baterai compass yang paling tahan lama.<br>Performa tercepat.
+                        Tahan air dan cipratan. Foto potret kualitas studio dan video 4K. <br> Lebih aman dengan Face ID.
+                        Compass XR baru. Sebuah upgrade yang brilian.</p>
+                </div>
+                <img src="https://cdn.macrumors.com/article-new/2018/01/iphonexrcolors1-800x361.jpg"
+                class="rounded m-4 p-4 mx-auto d-block zoom" alt="" style="height: 400px">
+            </div>
+    
+            <div class="container-fluid" id="acc_section">
+                <div class="row bg-light">
+                    <div class="col sm-2 bg-white my-2 mr-1 ml-2" id="charger">
+                        <h2 class="text-center pt-4 font-weight-bold">Wireless Charging</h2>
+                        <p class="text-center" id="charger-details">
+                            Mengecas baterai tidak pernah semudah ini.</p>
+                        <img src="https://cdn.vox-cdn.com/thumbor/adGdPKdK-p5bkTHSO189hV9xA5U=/0x0:1658x852/1200x800/filters:focal(697x294:961x558)/cdn.vox-cdn.com/uploads/chorus_image/image/58309235/Screen_Shot_2018_01_12_at_4.10.28_PM.0.png"
+                            alt="" class="rounded mx-auto zoom d-block m-4" style="width: 500px">
+                    </div>
+                    <div class="col sm-2 bg-white my-2 ml-1 mr-2" id="earphone">
+                        <h2 class="text-center pt-4 font-weight-bold">Noise Cancelling Headphone</h2>
+                        <p class="text-center" id="earphone-details">
+                            Mendengarkan musik tanpa gangguan.</p>
+                        <div class="container">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/51MVt0D7PwL._SX425_.jpg"
+                                alt="" class="rounded mx-auto zoom d-block m-4" style="width: 450px">
+                        </div>
+                    </div>
+                </div>
+            </div>    
+                
+            <div class="container-fluid bg-dark" id="desc_section">
+                <div class="row">
+                    <div class="col m-4">
+                        <article class="p-4 m-4">
+                            <h2 class="text-center text-white font-weight-bold">What is Compass?</h2>
+                            <p class="text-justify text-white indent"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac massa eu elit elementum imperdiet. Aliquam mi ipsum, ultrices non suscipit ac, maximus sagittis quam. Ut vel leo eu lorem bibendum pulvinar in eu ex.
+                                In viverra scelerisque mauris at pharetra. Fusce ante dui, suscipit vitae orci ac, scelerisque blandit augue. Maecenas est lacus, consectetur at mollis et, varius eget tortor. Sed vestibulum egestas pretium. Praesent accumsan et massa quis tristique.
+                                Ut condimentum urna quis diam scelerisque finibus. Etiam sagittis lacinia enim in malesuada. Donec euismod vestibulum dui, at venenatis metus laoreet vitae. Nunc facilisis non massa et bibendum.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis mauris in lacus facilisis iaculis. Pellentesque augue libero, malesuada sed est imperdiet, accumsan interdum ligula. Curabitur accumsan velit odio, sed fermentum est hendrerit non.
+                                Phasellus lacinia tortor vel urna viverra gravida. Sed ornare auctor imperdiet. Ut mattis ligula vel velit ultrices luctus. Maecenas leo neque, dapibus convallis sapien ac, tempor semper ligula. Phasellus malesuada tristique massa, sed tincidunt lorem varius sit amet.
+                                Praesent dignissim at eros nec facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent a nunc maximus lorem consectetur bibendum ut vel nisi. </p>
+                            <p class="text-justify text-white indent"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac massa eu elit elementum imperdiet. Aliquam mi ipsum, ultrices non suscipit ac, maximus sagittis quam. Ut vel leo eu lorem bibendum pulvinar in eu ex.
+                                In viverra scelerisque mauris at pharetra. Fusce ante dui, suscipit vitae orci ac, scelerisque blandit augue. Maecenas est lacus, consectetur at mollis et, varius eget tortor. Sed vestibulum egestas pretium. Praesent accumsan et massa quis tristique.
+                                Ut condimentum urna quis diam scelerisque finibus. Etiam sagittis lacinia enim in malesuada. Donec euismod vestibulum dui, at venenatis metus laoreet vitae. Nunc facilisis non massa et bibendum.</p>
+                        </article> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid bg-light">
+                <div class="row">
+                    <div class="col m-4">
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid bg-primary">
+                <footer class="p-4">
+                    <a class="text-white text-center">Hak Cipta © 2019 | Aditya Budi Pradana</a>
+                </footer>
+            </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
