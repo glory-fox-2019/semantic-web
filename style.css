@@ -1,0 +1,128 @@
+
+@font-face {
+    font-family: 'Holtwood One SC';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Holtwood One SC'), local('HoltwoodOneSC'), url(https://fonts.gstatic.com/s/holtwoodonesc/v9/yYLx0hLR0P-3vMFSk1TCq3Txg5BHdrz7.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @font-face {
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Alfa Slab One Regular'), local('AlfaSlabOne-Regular'), url(https://fonts.gstatic.com/s/alfaslabone/v9/6NUQ8FmMKwSEKjnm5-4v-4Jh2dJhew.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+.banner {
+    height: 100px;
+    background-color: #90949b;
+    /* height: 200px; */
+    display: flex;
+}
+
+#logo {
+    margin-left: 460px;
+    margin-top: 30px;
+}
+
+#logo h1 {
+    font-size: 30px;
+    font-family: 'Alfa Slab One';
+    letter-spacing: 2px;
+    color: #232329;
+}
+
+.container {
+    margin: 30px 180px;
+    border: 2px solid #636152;
+    border-radius: 8px;
+}
+
+.wrapper {
+    height: 230px;
+}
+
+.wrapper .image img {
+    height: 220px; 
+    margin: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-right: 20px;
+    max-width: 400px;
+    overflow: hidden;
+}
+
+.wrapper .image img:hover {
+
+    opacity: 0.8;
+}
+
+.paragraph h2 {
+    margin-bottom: 8px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.paragraph {
+    padding: 12px;
+    padding-right: 15px;
+}
+
+#icon img {
+    margin-left: 30px;
+    width: 100px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.explain {
+    border-bottom: 1px dotted;
+}
+
+.source {
+    font-style: italic;
+}
+
+#banner-image {
+    width: 100%;
+}
+
+#footer {
+	height: 35px;
+	width: 100%;
+	background-color: #90949b;
+	position: relative;
+	bottom: 0;
+	clear: both;
+	margin-top: 30px;
+	padding: 15px 0 10px
+}
+
+#footer .credit h3{
+	text-align: center;
+	font-family: 'Holtwood One SC';
+}
