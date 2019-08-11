@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Lalezar|Monoton|Righteous&display=swap');
+
+body, html {
+    height: 100%;
+  }
+  
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+
+    /* .navbar.transparent.navbar-inverse .navbar-inner {
+        border-width: 0px;
+        -webkit-box-shadow: 0px 0px;
+        box-shadow: 0px 0px;
+        background-color: rgba(0,0,0,0.0);
+        background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+        background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+        background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    } */
+
+  #navbar {
+    overflow: hidden;
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  #navbar a:hover {
+    color: white;
+    text-shadow: 2px 2px 5px red;
+  }
+  
+  #navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
+  .parallax1 {
+    background-image: url('./pics/bg1.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: -0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .words1{
+    font-family: 'Monoton', cursive;
+    background-color: orange;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 500px;
+  }
+
+  .quote1{
+      padding: 30px;
+      font-size: 100px;
+      color: white;
+      font-weight: 550;
+  }
+
+  .parallax2 {
+    background-image: url('./pics/bg2.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: -0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .words2{
+    font-family: 'Righteous', cursive;
+    background-color: #202421;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 500px;
+  }
+
+  .quote2{
+      text-align: right;
+      padding: 30px;
+      bottom: 0;
+      font-size: 100px;
+      color: whitesmoke;
+      font-weight: 550;
+  }
+
+
+  .parallax3 {
+    background-image: url('./pics/bg3.jpg');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: -0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .words3{
+    padding-top: 100px;
+    font-family: 'Lalezar', cursive;
+    background-color: #a12727;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 500px;
+  }
+
+  .quote3{
+      text-align: center;
+      padding: 30px;
+      bottom: 0;
+      font-size: 100px;
+      color: whitesmoke;
+      font-weight: 550;
+  }
